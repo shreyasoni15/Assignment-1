@@ -38,7 +38,7 @@ int main()
 	cin >> a;
 	cout << " Enter num2 : ";
 	cin >> b;
-	cout << " Enter the 1 for sum, 2 for max, 3 for min : " << endl; //ask the user for operation
+	cout << " Enter " << endl << " 1 for sum" << endl << " 2 for max" << endl << " 3 for min : " << endl; //ask the user for operation
 	cin >> func;
 	if (func == 1) //call the sum function
 	{
